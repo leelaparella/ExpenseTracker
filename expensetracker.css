@@ -1,0 +1,84 @@
+/* Body and background */
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(to right, #2c3e50, #4ca1af);
+  margin: 0;
+  padding: 30px;
+  color: #ffffff;
+}
+
+/* Main container */
+.container {
+  max-width: 500px;
+  margin: auto;
+  background-color: #1e272e;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+}
+
+/* Headings */
+h1, h3 {
+  text-align: center;
+  color: #00d2ff;
+}
+
+/* Input styles */
+form input,
+input[type="date"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 12px;
+  border: none;
+  border-radius: 5px;
+  background-color: #2f3640;
+  color: #fff;
+}
+
+form button, #filter-btn {
+  width: 100%;
+  padding: 10px;
+  background-color: #00d2ff;
+  color: #000;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+form button:hover, #filter-btn:hover {
+  background-color: #00a8cc;
+}
+
+/* Expense list */
+#filtered-list {
+  list-style: none;
+  padding: 0;
+  margin-top: 20px;
+}
+
+#filtered-list li {
+  background-color: #34495e;
+  margin: 8px 0;
+  padding: 10px;
+  border-radius: 6px;
+  color: #ecf0f1;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+/* Summary section */
+.summary {
+  margin-top: 20px;
+  text-align: center;
+  font-size: 18px;
+  color: #00ffb3;
+  font-weight: bold;
+}
+
+/* Labels */
+label {
+  display: block;
+  margin: 10px 0 5px;
+  color: #f5f6fa;
+}
