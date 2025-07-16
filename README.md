@@ -27,11 +27,6 @@ A modern, responsive Expense Tracker app built with React, Tailwind CSS, and Con
 
 ---
 
-## 📷 Screenshots
-
-> _(Add screenshots of your app here if available)_
-
----
 
 ## 📦 Installation
 
